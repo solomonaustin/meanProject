@@ -3,15 +3,15 @@ var Schema = mongoose.Schema;
 
 var userSchema = new Schema({
 
-    name: {
+    title: {
         type: String,
         required: true
     },
-    address: {
+    description: {
         type: String,
         required: true
     },
-    phone: {
+    duedate: {
         type: String,
         required: true
     }
