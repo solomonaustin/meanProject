@@ -11,14 +11,14 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    console.log('DB Connectedddd!!!!!!!!!!!');
+    console.log('DB Connectedddd');
 
     server.use(cors());
     server.use(express.json());
     server.use(routes);
 
     server.listen(8000, () => {
-      console.log('Server startedddddd');
+      console.log('Server started');
     });
   })
   .catch((error) => {
